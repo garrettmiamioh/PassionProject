@@ -1,0 +1,6 @@
+area.Neck:hover{
+    display:block;
+    color:gold;
+    border-color: gold;
+    border-width: 3px;
+}
