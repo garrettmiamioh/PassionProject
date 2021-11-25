@@ -8,10 +8,17 @@
     <meta name="author" content="Garrett Laverty">
     <meta name="description" content="Home page acting as main navigation.">
     <link rel="stylesheet" href="Styles.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="https://projects.davidlynch.org/maphilight/jquery.maphilight.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('.map').maphilight({ fillColor: '00ff00', fillOpacity: 0.5 , stroke: false });
+        });
+    </script>
 </head>
 
 <body>
-    <img src="man.PNG" usemap="#image-map">
+    <img class="map" src="man.PNG" usemap="#image-map">
 
     <map name="image-map">
         <area class="Neck" target="_self" alt="ToBeDetermined" title="ToBeDetermined" href="ToBeDeterminedNeck" coords="332,120,321,141,347,141,371,140,362,119" shape="poly">
