@@ -1,6 +1,70 @@
-area.Neck:hover{
-    display:block;
-    color:gold;
-    border-color: gold;
-    border-width: 3px;
-}
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+  }
+  
+  nav ul li {
+    flex:1;
+    list-style-type: none;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 0.75em;
+    margin: 0.25em;  
+    color: black;  
+    text-align: center;
+    text-decoration: none;  
+    border-radius: 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgba(19, 148, 253, 0.781);
+    box-shadow: inset 3px 3px 10px #300;  
+  }
+  .content {
+    display: flex;
+    align-items: top;
+    justify-content: left;
+  }
+  img {
+    max-width: 100%
+  }
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  .image .ref {
+    position:absolute; 
+    bottom: 0; 
+    text-align: center;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5);
+    color: white; 
+    width: 45%; 
+    padding: auto;
+  }
+  header{
+      background-color:antiquewhite;
+  }
+  body{
+      background-color:darkcyan;
+  }
+  .subImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .subImage .ref {
+    position:absolute; 
+    bottom: 0; 
+    text-align: center;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5);
+    color: white; 
+    width: 45%; 
+    padding: auto;
+  }
